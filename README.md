@@ -58,7 +58,7 @@ Below is the example of how to use plugin with minimum options
 					image:'slide2.jpg'
 				}
 			];
-			$('.slider').wslider({slides:slides});			
+			$('#slider').wslider({slides:slides});			
 						
 		});		 
 	</script>	
@@ -86,7 +86,7 @@ Here is an example with all option
 				},
 				
 			];
-			$('.slider').wslider(
+			$('#slider').wslider(
 			{
 				slides:slides,
 				next_text:'Next Slide',
