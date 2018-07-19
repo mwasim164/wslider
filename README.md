@@ -14,10 +14,10 @@ To use this plugin you must include bootstrap (bootstrap.css and bootstrap.js) a
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="UTF-8"> 
-	<title>wslider demo</title>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-	<script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>	
+  <meta charset="UTF-8"> 
+  <title>wslider demo</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>	
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 
@@ -52,10 +52,10 @@ Below is the example of how to use plugin with minimum options
 			var slides=
 			[	
 				{
-					image:'https://www.w3schools.com/bootstrap/ny.jpg'
+					image:'slide1.jpg'
 				},
 				{
-					image:'https://www.w3schools.com/bootstrap/chicago.jpg'
+					image:'slide2.jpg'
 				}
 			];
 			$('.slider').wslider({slides:slides});			
@@ -73,13 +73,13 @@ Here is an example with all option
 			var slides=
 			[	
 				{
-					image:'https://www.w3schools.com/bootstrap/ny.jpg',
+					image:'slide1.jpg',
 					alt:'wslide 1',
 					title:'Slide 01',
 					description:'This is slide no 01'
 				},
 				{
-					image:'https://www.w3schools.com/bootstrap/chicago.jpg',
+					image:'slide2.jpg',
 					alt:'wslide 2',
 					title:'Slide 02',
 					description:'This is slide no 02'
@@ -104,7 +104,7 @@ Here is an example with all option
 ### Details of options
 
 **slides**(array)		- array containing urls of images to show in slider<br>
-  **image**(string) 		- url of image to display in slider<br>
+  	**image**(string) 		- url of image to display in slider<br>
 	**alt**(string) 		- alternate text for image [optional]<br>
 	**title**(string)		- heading or title of slide [optional]<br>
 	**description**(string)	- sub heading or details about slide [optional]<br>
