@@ -129,6 +129,9 @@ Here is an example with all option
 		}
 ```
 
+
+**[View Demo](https://mwasim164.github.io/wslider/)**
+
 ## Built With
 
 * [Bootstap](https://getbootstrap.com/) - Use to build responsive web app
