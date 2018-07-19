@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8"> 
+	<title>wslider demo</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>	
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="wslider.js"></script>	
+</head>
+<body>
+
+	<div class="container">
+		<div class="col-md-12">
+			<h1 class="page-header">Wslider Demo </h1>
+			<div class="col-md-6 col-md-offset-3">
+				<div class="slider">
+				</div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			var slides=
+			[	
+				{
+					image:'slide1.jpg'
+				},
+				{
+					image:'slide2.jpg'
+				}
+			];
+			$('.slider').wslider({slides:slides});			
+						
+		});		 
+	</script>
+</body>
+</html>
